@@ -1,4 +1,10 @@
 @charset "UTF-8";
+body {
+  padding-top: 70px !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11191,6 +11197,13 @@ textarea.form-control-lg {
   color: #adb5bd;
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
 .menu {
   background: #020713;
 }
@@ -11417,6 +11430,38 @@ input.transparent-input {
 
 .testimonials {
   background-color: #020713;
+}
+
+.inner-header {
+  background-color: #020713;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.inner-content {
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.inner-content h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  color: #020713;
+}
+.inner-content p {
+  display: block;
+  margin-bottom: 1rem !important;
+}
+.inner-content ul {
+  margin-left: 1rem !important;
+}
+.inner-content ul li {
+  margin-bottom: 0.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */

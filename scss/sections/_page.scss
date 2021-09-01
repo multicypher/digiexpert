@@ -1,0 +1,42 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.inner-header {
+    background-color:$primary;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.inner-content{
+    background-color: $gray-100;
+    color:$gray-800;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    font-size:16px;
+    line-height: 1.5;
+
+        h2 {
+
+            font-size:2.5rem;
+            font-weight:800;
+            padding-bottom:2rem;
+            padding-top:2rem;
+            color:$primary;
+        }
+
+        p{
+            display:block;
+            margin-bottom:1rem !important;
+        }
+        
+        ul {
+            margin-left:1rem !important;
+
+            li {
+                margin-bottom:0.75rem;
+            }
+        }
+
+
+ 
+}

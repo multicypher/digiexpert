@@ -38,5 +38,10 @@ $grays: (
 $primary:       $dark-black;
 $secondary:     $dark-light;
 $font-family-base:'Poppins', sans-serif;
+body {
+  padding-top: 70px !important;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
