@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="col-md-7 col-lg-7 justify-content-start">
                     <h1 class="display-1__header-title lh-md fw-bold">
-                        Building digital produts, brands <span>experience.</span>
+                        Engage in development of products based on <span>WordPress.</span>
                     </h1>
                     <p class="display-1__header-description pb-3 pt-3">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptate repudiandae doloribus temporibus modi eligendi hic magnam placeat in ratione ad, asperiores pariatur labore ipsa minus nemo, animi sint nam!
@@ -82,7 +82,7 @@
             </div>
             <div class="col-md-6">
                 <div class="about-info p-5">
-                    <h2 class="display-2__title fw-bold lh-md">We Are Experts In Our Field.</h2>
+                    <h2 class="display-2__title fw-bold lh-md">We are Expert in UI and UX Development.</h2>
                     <h3 class="display-2__subtitle mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque </h3>
                     <p class="display-2__description mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, cupiditate voluptates porro consequuntur fugiat ipsa facilis inventore in excepturi recusandae molestiae numquam laborum hic laudantium, rerum animi! Temporibus, pariatur hic.</p>
                     <button type="button" class="mt-5 rounded-pill btn-rounded">
@@ -99,7 +99,7 @@
     <div id="services" class="services">
         <div class="container">
             <div class="row pt-5 pb-5 text-center ">
-                <h2 class="display-2__title fw-bold lh-md">My Awesome Services</h2>
+                <h2 class="display-2__title fw-bold lh-md">Our Expert Services</h2>
                 <h3 class="display-2__subtitle mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque </h3>
                 <div class="services__service-list mt-5">
                 </div>
@@ -167,7 +167,7 @@
         <div class="container">
             <div class="row pt-5 pb-5 text-center ">
 
-                <h2 class="display-2__title fw-bold lh-md">My Executed Projects</h2>
+                <h2 class="display-2__title fw-bold lh-md">Our Recent Projects</h2>
                 <h3 class="display-2__subtitle mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque </h3>
 
             </div>
@@ -248,7 +248,7 @@
         <div class="container">
             <div class="row pt-5 pb-5 text-center ">
 
-                <h2 class="display-2__title fw-bold lh-md">Latest Blog.</h2>
+                <h2 class="display-2__title fw-bold lh-md">Latest News</h2>
                 <h3 class="display-2__subtitle mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque </h3>
 
             </div>
@@ -348,7 +348,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
 
-                    <h1 class="display-2__subtitle lh-lg">I'm always open to discussing product</h1>
+                    <h1 class="display-2__subtitle lh-lg">We are ready to take new assignment..</h1>
 
                     <div class="form w-100 pb-2">
                         <form class="mt-5 mb-5">
