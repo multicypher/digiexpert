@@ -122,24 +122,24 @@
                     <h1 class="display-2__subtitle lh-lg">We are ready to take new assignment..</h1>
 
                     <div class="form w-100 pb-2">
-                        <form class="mt-5 mb-5">
+                        <form class="mt-5 mb-5" autocomplete=off>
                             <div class="col-lg-12 mb-3">
 
-                                <input type="text" class="form-control transparent-input form-control-lg" id="name" placeholder="Name" aria-describedby="nameHelp">
+                                <input type="text" class="form-control transparent-input form-control-lg" id="name" placeholder="Name" aria-describedby="nameHelp" autocomplete=off>
 
                             </div>
                             <div class="input-group col-lg-12 mb-3">
                                 <div class="col-lg-6 mb-3">
-                                    <input type="email" class="form-control transparent-input form-control-lg" id="email" placeholder="Email" aria-describedby="subjectHelp">
+                                    <input type="email" class="form-control transparent-input form-control-lg" id="email" placeholder="Email" aria-describedby="subjectHelp" autocomplete=off>
                                 </div>
                                 <span> </span>
                                 <div class="col-lg-6 mb-3">
-                                    <input type="subject" class="form-control transparent-input form-control-lg" placeholder="Subject" id="subject" aria-describedby="subjectHelp">
+                                    <input type="subject" class="form-control transparent-input form-control-lg" placeholder="Subject" id="subject" aria-describedby="subjectHelp" autocomplete=off>
                                 </div>
 
                             </div>
                             <div class="col-lg-12 mb-3">
-                                <input type="text" class="form-control transparent-input form-control-lg" placeholder="Message" id="message" aria-describedby="messageHelp">
+                                <input type="text" class="form-control transparent-input form-control-lg" placeholder="Message" id="message" aria-describedby="messageHelp" autocomplete=off>
                             </div>
 
                             <button type="submit" class="btn btn-rounded">Submit</button>
