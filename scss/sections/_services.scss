@@ -1,0 +1,32 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.services {
+  background-color: $primary;
+}
+
+.service-box {
+  background-color: $secondary;
+  width: 100%;
+  padding-top: 100%; 
+  position: relative;
+
+  &__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+
+        &__icon {
+          font-size:4rem;
+          color:$white !important;
+        }
+
+        &__caption {
+        color: $white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        }
+  }
+}

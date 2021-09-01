@@ -1,0 +1,25 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.btn-rounded {
+    position:relative;
+    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    font-weight: 700;
+    margin:0;   
+    border:0.2rem solid rgba($white,0.9);
+    background:transparent;
+    color:$white;
+    width: fit-content;
+
+    @include media-breakpoint-up(lg){
+        padding:0.8rem 2rem 0.8rem 2rem;
+    }
+ 
+    &:hover {
+        background-color: $blue;
+        @include backgroundtransition;
+        border:0.2rem solid $blue;
+    }
+
+
+}
+

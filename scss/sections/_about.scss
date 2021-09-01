@@ -1,0 +1,15 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.about {
+  background-color: $secondary;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.about-info {
+  @include absolutecenter;
+}

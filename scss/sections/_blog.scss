@@ -1,0 +1,92 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+@use '../components/animations' as *;
+
+.blog {
+    background-color:$secondary;
+}
+
+.blog-box {
+    background-color: rgba($primary, 0.20);
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1.8rem;
+  
+        img {
+            min-width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .blog-info {
+            background-color: rgba($primary, 0.75);
+            position: absolute;
+            bottom: 0px;
+            top: 0;
+            left: 0;
+            padding:2rem;
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            opacity:0;
+      
+  
+            .caption {
+                color: $gray-300;
+        
+                h4 {
+                display: block;
+                font-weight: 400;
+                }
+
+                a {
+                    color:$white;
+                    opacity:1;
+                  
+
+                }
+            }
+
+        }
+
+    &:hover {
+
+        img {
+            transform: scale(1.5);
+            @include transitionProperty;
+        }
+  
+        .blog-info {
+            opacity: 1;
+            visibility: visible;
+            @include transitionProperty;
+        } 
+      
+        a {
+            
+            visibility: visible;
+            color:$blue !important;
+            text-decoration: none;
+            @include transitionProperty;
+
+            span {
+
+                i {
+                    display:inline;
+                }
+            }
+
+            }
+ 
+    }
+
+  }
+
+
+  

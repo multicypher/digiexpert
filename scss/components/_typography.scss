@@ -1,0 +1,55 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+.display-1 {
+  font-family: "Poppins", sans-serif;
+
+  &__header-title {
+    font-size: 2rem;
+    color: $white;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 4.5rem;
+    }
+    span {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+  &__header-description {
+    color: $white;
+    font-size: 1.2rem;
+  }
+
+  &__header-button {
+    font-size: 1.5rem;
+  }
+}
+
+.display-2 {
+  font-family: "Poppins", sans-serif;
+
+  &__title {
+    font-size: 1.5rem;
+    color: $white;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 3rem;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1rem;
+    color: $gray-400;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.2rem;
+    }
+
+    
+  }
+
+  &__description {
+    font-size: 1rem;
+    color: $gray-500;
+  }
+}

@@ -1,0 +1,54 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer {
+    background-color: $primary;
+}
+
+.contact-list {
+
+    list-style-type:none;
+    color:$gray-600;
+    padding-left:0px;
+    margin-top:5rem;
+
+    li {
+        margin-bottom:1.5rem;
+        font-size:1.2rem;
+        font-weight: 400;
+
+        svg {
+            padding-right:15px
+        }
+    }
+}
+
+.form-control {
+    padding-left:0;
+    border:none;
+    border-radius: 0;
+    border-bottom:1px solid $gray-800;
+    margin-bottom:3rem;
+}
+
+input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    
+    color:$gray-400;
+    
+ }
+
+ .footer-bottom {
+     background-color:$secondary;
+     span {
+         a{
+             color:$gray-400;
+             text-decoration: none;
+
+             &:hover {
+                 color:$blue;
+                 text-decoration: none;
+             }
+         }
+     }
+ }
