@@ -99,7 +99,7 @@
     <div id="services" class="services">
         <div class="container">
             <div class="row pt-5 pb-5 text-center ">
-                <h2 class="display-2__title fw-bold lh-md">Our Expert Services</h2>
+                <h2 class="display-2__title fw-bold lh-md">Our Expert</h2>
                 <h3 class="display-2__subtitle mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque </h3>
                 <div class="services__service-list mt-5">
                 </div>
@@ -108,7 +108,7 @@
                         <div class="service-box">
                             <div class="service-box__info">
                                 <div class="service-box__info__icon">
-                                <i class="fas fa-bullhorn"></i>
+                                    <i class="fas fa-bullhorn"></i>
                                 </div>
                                 <div class="service-box__info__caption mt-3 lh-md">
                                     Digital Marketing
@@ -120,10 +120,10 @@
                         <div class="service-box">
                             <div class="service-box__info">
                                 <div class="service-box__info__icon">
-                                <i class="far fa-edit"></i>
+                                    <i class="far fa-edit"></i>
                                 </div>
                                 <div class="service-box__info__caption mt-3">
-                                    UI/UX Design 
+                                    UI/UX Design
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="service-box">
                             <div class="service-box__info">
                                 <div class="service-box__info__icon">
-                                <i class="fas fa-mail-bulk"></i>
+                                    <i class="fas fa-mail-bulk"></i>
                                 </div>
                                 <div class="service-box__info__caption mt-3">
                                     PPC Management
@@ -146,7 +146,7 @@
                         <div class="service-box">
                             <div class="service-box__info">
                                 <div class="service-box__info__icon">
-                                <i class="fab fa-wordpress-simple"></i>
+                                    <i class="fab fa-wordpress-simple"></i>
                                 </div>
                                 <div class="service-box__info__caption mt-3">
                                     WordPress Development
@@ -190,7 +190,7 @@
                 <div class="col-md-6">
 
                     <div class="portfolio-box ">
-                    <img src="assets/images/portfolio/project-2.jpg" alt="" class="img-fluid" />
+                        <img src="assets/images/portfolio/project-2.jpg" alt="" class="img-fluid" />
                         <div class="portfolio-info">
                             <div class="caption">
                                 <h4>eCommerce Website </h4>
@@ -204,7 +204,7 @@
                 <div class="col-md-6">
 
                     <div class="portfolio-box ">
-                    <img src="assets/images/portfolio/project-3.jpg" alt="" class="img-fluid" />
+                        <img src="assets/images/portfolio/project-3.jpg" alt="" class="img-fluid" />
                         <div class="portfolio-info">
                             <div class="caption">
                                 <h4>Digital Marketing</h4>
@@ -217,17 +217,17 @@
 
                 <div class="col-md-6">
 
-                        <div class="portfolio-box ">
+                    <div class="portfolio-box ">
                         <img src="assets/images/portfolio/project-4.jpg" alt="" class="img-fluid" />
-                            <div class="portfolio-info">
-                                <div class="caption">
-                                    <h4>PPC Campeign Management</h4>
-                                    <p>Marketing,web </p>
-                                </div>
+                        <div class="portfolio-info">
+                            <div class="caption">
+                                <h4>PPC Campeign Management</h4>
+                                <p>Marketing,web </p>
                             </div>
                         </div>
+                    </div>
 
-</div>
+                </div>
 
             </div>
         </div>
@@ -287,18 +287,18 @@
 
                 <div class="col-md-4">
 
-                <div class="blog-box ">
-                    <img src="assets/images/blog-post/blog-post-3.jpg" alt="" class="img-fluid" />
-                    <div class="blog-info">
-                        <div class="caption">
-                            <p class="fs-6">Aug 21, 2021</p>
-                            <h4>Why you'll never succeed at accessories</h4>
-                            <a href="#" class="fw-bold">Learn More <span><i class="fas fa-arrow-right"></i></span></a>
+                    <div class="blog-box ">
+                        <img src="assets/images/blog-post/blog-post-3.jpg" alt="" class="img-fluid" />
+                        <div class="blog-info">
+                            <div class="caption">
+                                <p class="fs-6">Aug 21, 2021</p>
+                                <h4>Why you'll never succeed at accessories</h4>
+                                <a href="#" class="fw-bold">Learn More <span><i class="fas fa-arrow-right"></i></span></a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-</div>
+                </div>
 
 
 
