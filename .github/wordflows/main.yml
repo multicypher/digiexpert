@@ -16,4 +16,4 @@ jobs:
         with:
           server: ftp.sepatil.in
           username: digiexpert@projects.sepatil.in
-          password: ${{ secrets.FTP_PROJECTS_PASSWORD }}
+          password: ${{ secrets.FTP_DIGIEXPERT_PASSWORD }}
