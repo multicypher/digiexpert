@@ -1,22 +1,21 @@
-
 // Color system
 
-$dark-black:#020713; 
-$dark-light:#12161F;
-$blue:rgb(39, 17, 243);
+$dark-black: #020713;
+$dark-light: #12161f;
+$blue: rgb(39, 17, 243);
 
 // scss-docs-start gray-color-variables
-$white:    #ffffff;
+$white: #ffffff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
-$gray-400: #ced4da ;
+$gray-400: #ced4da;
 $gray-500: #adb5bd;
 $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
-$black:    #000;
+$black: #000;
 // scss-docs-end gray-color-variables
 
 // fusv-disable
@@ -30,18 +29,17 @@ $grays: (
   "600": $gray-600,
   "700": $gray-700,
   "800": $gray-800,
-  "900": $gray-900
+  "900": $gray-900,
 ) !default;
 // scss-docs-end gray-colors-map
 // fusv-enable
 
-$primary:       $dark-black;
-$secondary:     $dark-light;
-$font-family-base:'Poppins', sans-serif;
+$primary: $dark-black;
+$secondary: $dark-light;
+$font-family-base: "Poppins", sans-serif;
 body {
-  padding-top: 70px !important;
   font-size: 16px;
   line-height: 1.5;
 }
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
